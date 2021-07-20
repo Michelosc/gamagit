@@ -1,21 +1,22 @@
 import React from "react";
+import * as S from "./styled";
 
 export default function Repositories() {
   return (
-    <>
-      <h1>Respositórios</h1>
-      <ul>
-        <li>Repositorio 01</li>
-        <li>Repositorio 02</li>
-        <li>Repositorio 03</li>
-        <li>Repositorio 04</li>
-        <li>Repositorio 05</li>
-        <li>Repositorio 06</li>
-        <li>Repositorio 07</li>
-        <li>Repositorio 08</li>
-        <li>Repositorio 09</li>
-        <li>Repositorio 10</li>
-      </ul>
-    </>
+    <S.Container>
+      <S.Title>Respositórios</S.Title>
+      <S.List>
+        <S.ListItem>Repositório: Nome Repositório 01</S.ListItem>
+        <S.ListItem>Repositório: Nome Repositório 02</S.ListItem>
+        <S.ListItem>Repositório: Nome Repositório 03</S.ListItem>
+        <S.ListItem>Repositório: Nome Repositório 04</S.ListItem>
+        <S.ListItem>Repositório: Nome Repositório 05</S.ListItem>
+        <S.ListItem>Repositório: Nome Repositório 06</S.ListItem>
+        <S.ListItem>Repositório: Nome Repositório 07</S.ListItem>
+        <S.ListItem>Repositório: Nome Repositório 08</S.ListItem>
+        <S.ListItem>Repositório: Nome Repositório 09</S.ListItem>
+        <S.ListItem>Repositório: Nome Repositório 10</S.ListItem>
+      </S.List>
+    </S.Container>
   );
 }
