@@ -9,6 +9,7 @@ export default function Repositories() {
     setRepositories(repositoriesName);
     localStorage.clear();
   }, []);
+
   return (
     <S.Container>
       <S.Title>Respositórios</S.Title>
@@ -17,6 +18,7 @@ export default function Repositories() {
           return <S.ListItem key={repository}>{repository}</S.ListItem>;
         })}
       </S.List>
+      <S.LinkHome to="/">Voltar</S.LinkHome>
     </S.Container>
   );
 }
